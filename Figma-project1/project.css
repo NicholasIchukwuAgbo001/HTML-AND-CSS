@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Cairo, sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    color: #555;
+    border: 1px solid #C9C9C9;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: #C9C9C9 solid 1px;
+    padding: 1rem 10rem;}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+
+.main-nav-link{
+    text-decoration: none;
+    color: #111111;
+    font-weight: 500;
+    font-size:  1.5rem;
+}
+
+.main-nav-link:hover{
+    color: #3F3F3F;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+.header-button{
+    background-color: #FFFFFF;
+    color: #555;
+    padding: 1rem 3rem;
+    border: 2px solid #999;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    background-color: #53a9e6;
+    transition: 1s;
+    color: #FFFFFF;
+}
+
+.section-how{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 0 10rem;
+}
+
+.section-how-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #242424;
+   
+}
+
+.section-how-content p{
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+
+.section-how-content h1 span{
+    color: #2995E2;
+}
+
+.section-how-images{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+.section-how-image{
+    padding-top: 5rem;
+    width: 80%;
+}
+
+.section-about-us-image2{
+    width: 67%;
+    padding-left: 90rem;
+}
+
+.section-how-button-container{
+    display: flex;
+    justify-content: place-between;
+    align-items: center;
+}
+
+.get-started{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.section-how-button{
+    background-color: #2995E2;
+    border: none;
+    border-radius: 5px;
+    padding: 1.2rem 3.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 #222;
+}
+
+.section-how-button:hover{
+    background-color: #53a9e6;
+    transition: 1s;
+}
+
+.our-story{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #444;
+    padding: 0 4rem;
+}
+
+.section-about-us-content{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #3F3F3F;
+    padding-top: 10rem;
+    gap: 3rem;
+}
+
+.section-about-us p{
+    font-size: 1.8rem;
+    padding: 3rem 0;
+    color: #4F4F4F;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.section-our-service{
+    padding: 0 10rem;
+}
+
+
+.our-service-content h2{
+    font-size: 4rem;
+    color: #2995E2;
+    line-height: 1.5;
+
+}
+
+.our-service-content p{
+    font-size: 1.8rem;
+    color: #4F4F4F;
+
+}
+
+.section-about-this{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10rem 10rem;
+    gap: 5rem;
+}
+
+.section-about-this-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section-about-this-content h2{
+    font-size: 3rem;
+    color: #3F3F3F;
+    line-height: 2;
+
+}
+
+.section-about-this-content p{
+    font-size: 2rem;
+    color: #4F4F4F;
+    padding: 2rem 0;
+    line-height: 1.7;
+}
+
+.section-about-this-button{
+    background-color: #2995E2;
+    color: #FFFFFF;
+    padding: 1.2rem 5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    box-shadow: 5px 5px 0 0 #222;
+    cursor: pointer;
+}
+
+.section-about-this-button:hover{
+    background-color: #53a9e6;
+    transition: 1s;
+}
+
+
+.about-this-image{
+    width: 85%;
+}
+
+.section-special-help{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2995E2;
+    margin: 0 25rem;
+    padding-bottom: 3rem;
+}
+
+.section-special-help-content{
+    font-size: 1.7rem;
+    line-height: 1.8;
+    color: #FFFFFF;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-right: 20rem;
+}
+
+.section-special-help-image{
+    width: 58%;
+    position: absolute;
+}
+
+.section-special-help-images{
+    padding-left: 20rem;
+    position: relative;
+}
+
+.section-special-help-button{
+    background-color: #FFFFFF;
+    color: #313131;
+    border: none;
+    border-radius: 5px;
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 0 #222;
+}
+
+.section-special-help-button:hover{
+    background-color: #53a9e6;
+    transition: 1s;
+    color: #FFFFFF;
+}
+
+.section-call-to-action{
+    border: 1px solid #2995E2;
+    border-radius: 5px;
+    margin: 15rem;
+}
+
+
+.call-to-action-content{
+    padding: 5rem 0 0 10rem;
+}
+
+.call-to-action-content h2{
+    font-size: 3rem;
+    color: #3F3F3F;
+}
+
+.call-to-action-content p{
+    font-size: 2rem;
+    color: #4F4F4F;
+    padding: 2rem 0;
+}
+
+.cta-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 0 5rem 10rem;
+}
+
+.cta-form label{
+    display: block;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.cta-form input,
+.cta-form select{
+    width: 85%;
+    padding: 2rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+
+.cta-form input::placeholder{
+    color: #aaa;
+}
+
+.form-btn{
+    display: flex;
+    justify-self: center;  
+    background-color: #2995E2;
+    color: #FFFFFF;
+    padding: 1.8rem 15rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.form-btn:hover{
+    background-color: #53a9e6;
+    transition: 1s;
+}
+
+.section-footer{
+    border-top: 1px solid #C9C9C9;
+}
+
+.footer-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #C9C9C9;
+    margin: 7rem;
+    padding: 7rem 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #242424;
+    font-size: 1.5rem;
+}
+
+.footer-img{
+    width: 25%;
+}
+
+.footer-content h2 span{
+    color: #2995E2;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-list h2{
+    font-size: 1.8rem;
+    color: #3F3F3F;
+    padding: 2rem 0;
+}
+
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.footer-list ul li a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #3F3F3F;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem;
+    font-size: 1.5rem;
+    color: #878787;
+}
+
+
+.copy-right p a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #2995E2;
+}
