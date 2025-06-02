@@ -16,7 +16,7 @@ body{
     color: #555;
     border: 1px solid #C9C9C9;
     max-width: 1700px;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 .header{
@@ -25,7 +25,8 @@ body{
     align-items: center;
     background-color: #FFFFFF;
     border-bottom: #C9C9C9 solid 1px;
-    padding: 1rem 10rem;}
+    padding: 1rem 10rem;
+}
 
 .header-logo{
     display: flex;
