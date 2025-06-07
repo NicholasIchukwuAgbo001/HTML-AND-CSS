@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend", sans-serif;
+}
+
+.navBarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(105, 105, 241);
+    padding: 5px 50px;
+    color: #FAFAFA;
+}
+
+.navLinks ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #FAFAFA; 
+    font-size: 20px;
+}
+
+.signUp button{
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+
+.searchContainer{
+   display: flex;
+   justify-content: center; 
+   padding: 10px 0;
+}
+
+.searchContainer input{
+    padding: 8px 25px 5px 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+}
+
+.imageContainer img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.imageContainer p{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.categoryAndPrice{
+    display: flex;
+    justify-content: space-between;
+}

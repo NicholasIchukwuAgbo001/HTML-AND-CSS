@@ -1,6 +1,6 @@
 @media (max-width: 69rem) {
     .nav-bar {
-    gap: 1rem;
+      gap: 1rem;
     }
 
     #section-about {
@@ -148,6 +148,9 @@
 
 
 @media (max-width: 47rem) {
+    .hero-text h1 {
+        font-size: 3rem;
+    }
     #section-about{
         grid-template-columns: 1fr;
         gap: 7rem;
@@ -208,6 +211,4 @@
         font-size: 12px;
         font-weight: 400;
     }
-
-
 }

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend", sans-serif;
+    background-image: linear-gradient(to left, #0d6991e8, #daee23, #2ac725e8);
+}
+
+.firstNavBar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navBarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 56, 58);
+    padding: 5px 50px;
+    color: #FAFAFA;
+}
+
+.navLinks ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #FAFAFA; 
+    font-size: 15px;
+}
+
+.signUp button{
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+
+.searchContainer{
+   display: flex;
+   justify-content: center; 
+   padding: 10px 0;
+   padding-top: 80px;
+}
+
+.searchContainer input{
+    padding: 15px 10px;
+    outline: none;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 25px;
+}
+
+.images-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.images-box img{
+    width: 100%;
+    height: 120%;
+    background-color: rgb(31, 11, 11);
+    border-radius: 10px;
+}
+
+.images-box img:hover{
+    animation: bounce 2s ease-in-out infinite  ;
+    background-image: linear-gradient(to left, #820d91e8, #f18c19e8);
+}
+
+.categoryAndPrice{
+    padding:  30px;
+}
+
+.images-box p,
+.images-box span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} 
